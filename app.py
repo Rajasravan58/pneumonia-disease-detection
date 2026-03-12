@@ -32,3 +32,6 @@ def predict():
     return render_template('index.html',prediction=classification,imagePath=image_path)
 if __name__ == '__main__':
     app.run(port=5000,debug=True)
+
+
+print("hello world")
